@@ -1,0 +1,66 @@
+ body {
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: up;
+  min-height: 50vh;
+  background: #000;
+}
+
+h2 {
+  display: contents;
+  font-size: 3em;
+  font-weight: 200;
+  color: #FFFFFF;
+  letter-spacing: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+h2:hover {
+  color: #FFFFFF;
+  text-shadow: 0 0 5px #FFFFFF,
+   0 0 25px #FFFFFF,
+   0 0 50px #FFFFFF,
+   0 0 100px #FFFFFF;
+}
+
+b {
+  font-size: 35px;
+  color: pink;
+
+}
+
+img {
+  display: block;
+  margin: 0 right;
+}
+
+
+.class {
+  font-size: 3em;
+  font-weight: 400;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.class:hover {
+  color: #FFFFFF;
+  text-shadow: 0 0 5px #FFFFFF,
+   0 0 25px #FFFFFF,
+   0 0 50px #FFFFFF,
+   0 0 100px #FFFFFF;
+}
+
+h2, .class {
+  color: #FFFFFF;
+
+  text-shadow:
+    0.5px 0.5px 0 #000000,
+    -0.5px 0.5px 0 #000000,
+    0.5px -0.5px 0 #000000,
+    -0.5px -0.5px 0 #000000;
+}
